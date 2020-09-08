@@ -10,7 +10,7 @@ module Main =
   open IronJS.Hosting.FSharp
 
   let printReplHeader () =
-    let header = sprintf @"IronJS REPL, version: %s" Version.String 
+    let header = sprintf @"IronJS REPL"
 
     header
     + "\n\nTo send input to the runtime end the statement"
